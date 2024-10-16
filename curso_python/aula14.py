@@ -1,13 +1,7 @@
-nome = "Guilherme Ribeiro"
-altura = 1.80
-peso = 85
-imc = peso / (altura ** 2)
+a = 'A'
+b = 'B'
+c = 1.1
+string = 'b = {nome2} a = {0} b = {nome2} c = {nome3:.2f}'
+formato = string.format(a, nome2 = b, nome3 = c)
 
-"f-strings"
-linha_1 = f'{nome} tem {altura:.2f} de altura'
-linha_2 = f'pesa {peso} e seu ICM é'
-linha_3 = f'{imc:.2f}'
-
-print(linha_1)
-print(linha_2)
-print(linha_3)
+print(formato)
